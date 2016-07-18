@@ -1,0 +1,43 @@
+<div id="details-banner">
+	<span class="mini-icon" id="mini-icon-initials"><p id="initials">{{initials}}</p></span>
+	<div id="details-div">
+		<h1 id="name-banner">{{forename}} {{surname}}</h1>
+		<h3 id="position-banner">{{position}}</h3>
+	</div>
+</div>
+
+<nav id="home-nav">
+	<a href="#home" class="home-nav-item current-page" id="profile-button"">PROFILE</a>
+	<a href="#email" class="home-nav-item" id="email-button">EMAIL LOGINS</a>
+</nav>
+
+<div id="profile-page">
+	<div id="profile-image-box">
+		<span id="profile-image">
+			<span class="icon icon-TessChoob" id="user-icon"></span>
+		</span>
+
+		<div id="profile-text-box">
+			<h2 id="profile-image-text">Your Profile Image</h2>
+			<button class="image-button" ng-click="addImage()">Change</button>
+			<button class="image-button">Remove</button>
+		</div>
+	</div>
+
+	<div id="profile-box">
+		<h4 id="profile-box-title">PROFILE INFORMATION</h4>
+		<hr>
+		<form ng-submit="submit()">
+			<p class="profile-box-text">First Name</p>
+			<input type="text" name="firstName" class="profile-box-input" ng-model="profileForename">
+			<br>
+			<p class="profile-box-text">Surname</p>
+			<input type="text" name="surname" class="profile-box-input" ng-model="profileSurname">
+			<br>
+			<p class="profile-box-text">Position</p>
+			<input type="text" name="position" class="profile-box-input" ng-model="profilePosition">
+			<hr>
+			<input type="submit" id="save-profile-button" class="save-button" value="Save">
+		</form> <!-- end form -->
+	</div>
+</div>

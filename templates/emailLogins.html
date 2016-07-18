@@ -1,0 +1,35 @@
+<div id="details-banner">
+	<span class="mini-icon" id="mini-icon-initials"><p id="initials">{{initials}}</p></span>
+	<div id="details-div">
+		<h1 id="name-banner">{{forename}} {{surname}}</h1>
+		<h3 id="position-banner">{{position}}</h3>
+	</div>
+</div>
+
+<nav id="home-nav">
+	<a href="#home" class="home-nav-item" id="profile-button"">PROFILE</a>
+	<a href="#email" class="home-nav-item current-page" id="email-button">EMAIL LOGINS</a>
+</nav>
+
+<div>
+	<p id="email-text">You can log in using multiple email addresses but using the same password. Add and remove which email addresses you can login with.</p>
+
+	<div id="emails-box" class="clearfix">
+		<h5 id="emails-box-title">EMAILS</h5>
+		<hr>
+
+		<table id="email-table">
+			<tr ng-repeat="email in emails">
+				<td class="table-email">{{email.email}}</td><td class="table-button"><span class="icon icon-close" ng-click="remove(email)"></span></td>
+			</tr>
+		</table>
+
+		<div id="add-email-div">
+			<input type="text" name="add-email" id="add-email" placeholder="Add a new email address..." ng-model="newEmail">
+		</div>
+
+		<hr id="endline">
+
+		<button id="emails-save-button" ng-click="addEmail()" class="save-button">Save</button>
+	</div>
+</div>

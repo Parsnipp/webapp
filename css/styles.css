@@ -1,0 +1,310 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro';
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#navbar {
+	height: 60px;
+	width: fill;
+	background: #222731;
+	padding-left: 80px;
+}
+
+#main-nav {
+	display: inline-block;
+	height: 60px;
+}
+
+#main-dropdown {
+	display: inline-block;
+	position: absolute;
+	right: 80px;
+}
+
+.home-logo {
+	display: inline-block;
+	vertical-align: center;
+	padding-right: 50px;
+	margin-right: 50px;
+}
+
+.main-nav-item {
+	display: inline-block;
+	vertical-align: center;
+	padding: 20px 15px;
+	color: #6b768e;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+#details-banner {
+	background: #222731;
+	padding: 20px 0 0 80px;
+}
+
+.mini-icon {
+	display: inline-block;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	color: #6b768e;
+	position: relative;
+	bottom: 23px;
+	left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+#initials {
+	position: relative;
+	top: 11px;
+}
+
+#mini {
+	font-size: 20px;
+	position: relative;
+	top: 12px;
+}
+
+#mini-icon-initials {
+	background-color: #1c1f27;
+}
+#mini-icon-picture {
+	background: white;
+}
+
+#details-div {
+	display: inline-block;
+	border-left: solid;
+	border-color: black;
+	margin-left: 15px;
+	padding-left: 10px;
+	border-width: 1px;
+}
+
+#name-banner {
+	color: #fcfcfc;
+	font-size: 18px;
+}
+
+#position-banner {
+	color: #6b768e;
+	font-size: 14px;
+}
+
+#home-nav {
+	height: 50px;
+	padding-left: 80px;
+	background: #222731;
+}
+
+.home-nav-item {
+	display: inline-block;
+	vertical-align: center;
+	padding: 20px 15px 10px;
+	color: #6b768e;
+	text-decoration: none;
+	font-size: 10px;
+	background: #222731;
+}
+
+#profile-page {
+	width: 400px;
+	margin: auto;
+}
+
+#profile-image {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	background: white;
+	margin: 30px 20px;
+}
+
+#profile-image-box {
+	display: block;
+	width: 100%;
+	position: relative;
+	left: 35px;
+}
+
+#user-icon {
+	display: inline-block;
+	font-size: 50px;
+	position: relative;
+	left: 25px;
+	top: 25px;
+	color: #e6e8f1;
+}
+
+#profile-text-box {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	top: 20px;
+}
+
+#profile-image-text {
+	font-size: 18px;
+	color: #495064;
+}
+
+.image-button {
+	height: 25px;
+	width: 80px;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #b4b8b7;
+	color: #6b768e;
+	border-radius: 1px;
+}
+
+.image-button:active {
+	background: #efefef;
+}
+
+#profile-box {
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #b4b8b7;
+}
+
+#profile-box-title {
+	padding: 20px 0 10px 20px;
+	font-size: 14px;
+	color: #495064;
+}
+
+hr {
+	margin: 10px 20px;
+	padding: 1px 0 0 0;
+	border: none;
+	border-color: white;
+	background-color: #d2d7e1;
+}
+
+.profile-box-text {
+	margin: 10px 10px 10px 15px;
+	display: inline-block;
+	width: 80px;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #d2d7e1;
+}
+
+.profile-box-input {
+	width: 245px;
+	display: inline-block;
+	padding-left: 10px;
+	height: 20px;
+	margin: 10px 0;
+	border-width: 1px;
+	border-color: #d2d7e1;
+	border-radius: 2px;
+	background: #fafafa;
+}
+
+#save-profile-button {
+	position: relative;
+	left: 298px;
+	margin: 0 20px 20px 0;
+}
+
+.save-button {
+	height: 25px;
+	width: 80px;
+	color: white;
+	background-color: #f88c00;
+	border: solid;
+	border-color: #d27206;
+	border-width: 1px;
+	border-radius: 1px;
+}
+
+.save-button:active {
+	background-color: #e87c00;
+}
+
+.centrum-square {
+	color: #f88c00;
+	font-size: 30px;
+	position: relative;
+	top: 5px;
+}
+
+.centrum-text {
+	color: white;
+	position: relative;
+	right: 30px;
+}
+
+#email-text {
+	margin: 20px 80px;
+	padding: 10px 20px;
+	color: #fafafa;
+	background: #363e51;
+	font-size: 12px;
+}
+
+#emails-box {
+	margin: 0 80px;
+	background: white;
+}
+
+#emails-box-title {
+	padding: 20px 20px 10px;
+	font-size: 16px;
+	color: #495064;
+}
+
+#emails-save-button {
+	float: right;
+	margin: 20px;
+}
+
+#email-table {
+	padding: 0 20px 0 30px;
+	width: 100%;
+}
+
+td {
+	padding: 10px;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #d2d7e1;
+}
+
+.table-button {
+	width: 15px;
+}
+
+#add-email-div {
+	padding: 0 20px 0 30px;
+	width: 100%;
+}
+
+#add-email {
+	padding: 13px;
+	border: none;
+	width: 90%;
+}
+
+#endline {
+	position: relative;
+	bottom: 10px;
+}
+
+.current-page {
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #f48b16;
+	color: white;
+}
